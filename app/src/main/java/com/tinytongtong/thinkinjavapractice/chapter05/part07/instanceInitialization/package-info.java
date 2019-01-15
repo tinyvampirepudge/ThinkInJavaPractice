@@ -1,0 +1,1 @@
+package com.tinytongtong.thinkinjavapractice.chapter05.part07.instanceInitialization;

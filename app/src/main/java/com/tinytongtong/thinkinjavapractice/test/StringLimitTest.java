@@ -1,9 +1,5 @@
 package com.tinytongtong.thinkinjavapractice.test;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
-
 /**
  * @Description: String类型常量限制测试
  * @Author wangjianzhou@qding.me

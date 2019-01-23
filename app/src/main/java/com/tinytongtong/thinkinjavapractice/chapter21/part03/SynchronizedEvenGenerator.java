@@ -1,17 +1,17 @@
 package com.tinytongtong.thinkinjavapractice.chapter21.part03;
 
 public class SynchronizedEvenGenerator extends IntGenerator {
-	private int currentEvenValue = 0;
+    private int currentEvenValue = 0;
 
-	@Override
-	public synchronized int next() {
-		++currentEvenValue;
-		Thread.yield();
-		++currentEvenValue;
-		return currentEvenValue;
-	}
-	
-	public static void main(String[] args) {
-		EvenChecker.test(new SynchronizedEvenGenerator());
-	}
+    @Override
+    public synchronized int next() {
+        ++currentEvenValue;
+        Thread.yield();
+        ++currentEvenValue;
+        return currentEvenValue;
+    }
+
+    public static void main(String[] args) {
+        EvenChecker.test(new SynchronizedEvenGenerator());
+    }
 }

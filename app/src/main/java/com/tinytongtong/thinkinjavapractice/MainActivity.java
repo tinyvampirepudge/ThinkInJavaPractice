@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
             byteEqualResult = false;
         } else {
             for (int i = 0; i < bytesResult.length; i++) {
-                if (bytesResult[is] != bytesResultTest[i]) {
+                if (bytesResult[i] != bytesResultTest[i]) {
                     byteEqualResult = false;
                     break;
                 }
